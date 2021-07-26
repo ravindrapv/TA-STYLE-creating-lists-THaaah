@@ -31,9 +31,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+/* ol, ul {
 	list-style: none;
-}
+} */
 blockquote, q {
 	quotes: none;
 }
@@ -59,6 +59,9 @@ body {
 	line-height: 1.5;
 	background-color: #D4CEA7;
 	font-family: sans-serif;
+}
+.ol .ul {
+	padding-left: 50px;
 }
 /*----header----*/
 .header {
@@ -90,28 +93,43 @@ nav{
 	justify-content:left;
 	align-items: center;
 }
+.header-style{
+	list-style: none;
+}
 
 /*---box----*/
-.box {
+.menu {
 	background-color: #005979;
 	width: 25%;
 	height: 450px;
 	border-radius: 2px;
 	margin-top: 40px;
-	padding: 20px;
+	padding: 60px;
 	margin-left: 30px;
 	margin-bottom: 40px;
+}
+.list-style-img img{
+	list-style-image: url(../block-BHaaby/tick.png);
+	width: 30px;
+	height: 30px;
+}
+.ol{
+	list-style-type:decimal;
+}
+.ul{
+	list-style: disc;
 }
 
 li{
 	font-size: 24px;
 	color: #CECAA4;
 }
-.ol{
-	list-style-type:decimal;
-}
+
 dt{
 	font-size: 32px;
+}
+dd{
+	margin-left: 32px;
 }
 dl {
 	font-size: 18px;
@@ -119,4 +137,7 @@ dl {
 footer {
 	margin-top: 30px;
 	background-color: #252C22;
+}
+.footer-style {
+	list-style: none;
 }
